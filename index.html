@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>AF-DEV - Communauté Africaine de Développeurs</title>
+  <!-- TODO: Add meta tags and optimize seo -->
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/style.css">
+  <!-- Box Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <div class="nav container">
+      <a href="#" class="logo">AF-<span>DEV</span></a>
+      <!-- Menu-Icon -->
+      <input type="checkbox" id="menu">
+      <label for="menu"><i class='bx bx-menu' id="menu-icon"></i></label>
+      <!-- Nav List -->
+      <ul class="navbar">
+        <li><a href="#" class="active">Accueil</a></li>
+        <li><a href="#">Nos Activités</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Rejoindre</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+<!-- Info: edit information in jscripts/lang.js this content show when it's failed to get current user language -->
+
+  <!-- Home Section -->
+  <section class="home container" id="home">
+    <div class="home-text scroll-animate">
+      <h1>Catalyseur de l'innovation Tech Africaine Open-Source</h1>
+      <p>AF-DEV est la communauté de développeurs africains qui façonne l'avenir technologique du continent. Ensemble, construisons des solutions open-source innovantes et propulsons l'Afrique au cœur de la révolution numérique.</p>
+      <a href="#" class="btn">Rejoignez la révolution</a>
+    </div>
+    <div class="home-img scroll-animate">
+      <img src="img/home.svg" alt="Illustration AF-DEV : Innovation et Collaboration">
+    </div>
+  </section>
+  <hr class="styled-hr">
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="heading scroll-animate">
+      <h2>Nos activités</h2>
+      <p>Nous collaborons sur des projets open-source pour faire de l'Afrique un nouveau hub du développement.</p>
+    </div>
+    <div class="services-container container">
+      <div class="box scroll-animate">
+        <img src="img/services1.svg" alt="Hackathons">
+        <h2>Hackathons</h2>
+        <p>Des compétitions pour résoudre des problèmes avec le développement open-source.</p>
+        <a href="#" class="s-btn">En savoir plus</a>
+      </div>
+      <div class="box scroll-animate">
+        <img src="img/services2.svg" alt="Meetups">
+        <h2>Meetups</h2>
+        <p>Des rencontres entre développeurs africains pour échanger et collaborer.</p>
+        <a href="#" class="s-btn">En savoir plus</a>
+      </div>
+      <div class="box scroll-animate">
+        <img src="img/services3.svg" alt="Formations">
+        <h2>Formations</h2>
+        <p>Des tutoriels et formations en ligne pour accompagner les développeurs.</p>
+        <a href="#" class="s-btn">Démarrer</a>
+      </div>
+      <div class="box scroll-animate">
+        <img src="img/services4.svg" alt="Collaboration Open-Source">
+        <h2>Collaboration Open-Source</h2>
+        <p>Participation à des projets open-source pour encourager l'innovation.</p>
+        <a href="#" class="s-btn">Participer</a>
+      </div>
+    </div>
+  </section>
+  <hr class="styled-hr">
+
+  <!-- Blog Section -->
+  <section class="blog container" id="blog">
+    <h2>Blog & Actualités</h2>
+    <p class="blog-subtitle">
+      Découvrez les dernières actualités, tutoriels et interviews de l'écosystème tech africain.
+    </p>
+    <div class="blog-filters"></div>
+    <div class="blog-posts"></div>
+    <div class="blog-cta">
+      <a href="#" class="btn">Voir plus d'articles</a> <!-- LOL I FORGOT TO ADD THIS ON TRANSALATION METHOD -->
+    </div>
+  </section>
+  <hr class="styled-hr">
+
+  <!-- Community Section -->
+  <section class="community container" id="community">
+    <div class="community-content">
+      <div class="community-img scroll-animate">
+        <img src="img/community.svg" alt="Rejoindre la Communauté AF-DEV">
+      </div>
+      <div class="community-text scroll-animate">
+        <h2>Rejoindre la Communauté</h2>
+        <p>En rejoignant AF-DEV, vous bénéficiez de nombreux avantages pour booster votre carrière de développeur :</p>
+        <ul class="community-benefits">
+          <li>Accès à des ressources exclusives et tutoriels.</li>
+          <li>Réseautage avec des développeurs talentueux à travers l'Afrique.</li>
+          <li>Participation à des projets open-source innovants.</li>
+          <li>Invitations à des événements et hackathons.</li>
+          <li>Opportunités de collaboration et de mentorat.</li>
+        </ul>
+        <div class="community-cta">
+          <p>Rejoignez-nous dès maintenant sur Telegram pour ne rien manquer !</p>
+          <a href="https://t.me/afdev_community" class="community-btn" target="_blank">
+            <i class='bx bxl-telegram'></i> Rejoindre sur Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr class="styled-hr">
+
+  <!-- Contact Section -->
+  <section class="contact container" id="contact">
+    <div class="contact-img scroll-animate">
+      <img src="img/contact.svg" alt="Contact Illustration">
+    </div>
+    <div class="contact-form scroll-animate">
+      <h2>Contactez-nous</h2>
+      <form action="#">
+        <div class="input-group">
+          <label for="name">Votre nom</label>
+          <input type="text" id="name" required>
+        </div>
+        <div class="input-group">
+          <label for="email">Votre email</label>
+          <input type="email" id="email" required>
+        </div>
+        <div class="input-group">
+          <label for="message">Votre message</label>
+          <textarea id="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="c-btn">Envoyer le message</button>
+      </form>
+    </div>
+  </section>
+  <hr class="styled-hr">
+
+  <!-- Footer -->
+  <div class="copyright container">
+    <p>@AF-DEV Tous droits réservés</p>
+    <div class="social">
+      <a href="#"><i class='bx bxl-facebook'></i></a>
+      <a href="#"><i class='bx bxl-twitter'></i></a>
+      <a href="#"><i class='bx bxl-instagram'></i></a>
+    </div>
+  </div>
+
+  <!-- Module JS -->
+  <script type="module" src="jscripts/main.js"></script>
+</body>
+</html>
