@@ -1,163 +1,227 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>AF-DEV - Communauté Africaine de Développeurs</title>
-  <!-- TODO: Add meta tags and optimize seo -->
-  <!-- CSS -->
-  <link rel="stylesheet" href="styles/style.css">
-  <!-- Box Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-</head>
-<body>
-  <!-- Navbar -->
-  <header>
-    <div class="nav container">
-      <a href="#" class="logo">AF-<span>DEV</span></a>
-      <!-- Menu-Icon -->
-      <input type="checkbox" id="menu">
-      <label for="menu"><i class='bx bx-menu' id="menu-icon"></i></label>
-      <!-- Nav List -->
-      <ul class="navbar">
-        <li><a href="#" class="active">Accueil</a></li>
-        <li><a href="#">Nos Activités</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Rejoindre</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
-  </header>
-
-<!-- Info: edit information in jscripts/lang.js this content show when it's failed to get current user language -->
-
-  <!-- Home Section -->
-  <section class="home container" id="home">
-    <div class="home-text scroll-animate">
-      <h1>Catalyseur de l'innovation Tech Africaine Open-Source</h1>
-      <p>AF-DEV est la communauté de développeurs africains qui façonne l'avenir technologique du continent. Ensemble, construisons des solutions open-source innovantes et propulsons l'Afrique au cœur de la révolution numérique.</p>
-      <a href="#" class="btn">Rejoignez la révolution</a>
-    </div>
-    <div class="home-img scroll-animate">
-      <img src="img/home.svg" alt="Illustration AF-DEV : Innovation et Collaboration">
-    </div>
-  </section>
-  <hr class="styled-hr">
-
-  <!-- Services Section -->
-  <section class="services" id="services">
-    <div class="heading scroll-animate">
-      <h2>Nos activités</h2>
-      <p>Nous collaborons sur des projets open-source pour faire de l'Afrique un nouveau hub du développement.</p>
-    </div>
-    <div class="services-container container">
-      <div class="box scroll-animate">
-        <img src="img/services1.svg" alt="Hackathons">
-        <h2>Hackathons</h2>
-        <p>Des compétitions pour résoudre des problèmes avec le développement open-source.</p>
-        <a href="#" class="s-btn">En savoir plus</a>
-      </div>
-      <div class="box scroll-animate">
-        <img src="img/services2.svg" alt="Meetups">
-        <h2>Meetups</h2>
-        <p>Des rencontres entre développeurs africains pour échanger et collaborer.</p>
-        <a href="#" class="s-btn">En savoir plus</a>
-      </div>
-      <div class="box scroll-animate">
-        <img src="img/services3.svg" alt="Formations">
-        <h2>Formations</h2>
-        <p>Des tutoriels et formations en ligne pour accompagner les développeurs.</p>
-        <a href="#" class="s-btn">Démarrer</a>
-      </div>
-      <div class="box scroll-animate">
-        <img src="img/services4.svg" alt="Collaboration Open-Source">
-        <h2>Collaboration Open-Source</h2>
-        <p>Participation à des projets open-source pour encourager l'innovation.</p>
-        <a href="#" class="s-btn">Participer</a>
-      </div>
-    </div>
-  </section>
-  <hr class="styled-hr">
-
-  <!-- Blog Section -->
-  <section class="blog container" id="blog">
-    <h2>Blog & Actualités</h2>
-    <p class="blog-subtitle">
-      Découvrez les dernières actualités, tutoriels et interviews de l'écosystème tech africain.
-    </p>
-    <div class="blog-filters"></div>
-    <div class="blog-posts"></div>
-    <div class="blog-cta">
-      <a href="#" class="btn">Voir plus d'articles</a> <!-- LOL I FORGOT TO ADD THIS ON TRANSALATION METHOD -->
-    </div>
-  </section>
-  <hr class="styled-hr">
-
-  <!-- Community Section -->
-  <section class="community container" id="community">
-    <div class="community-content">
-      <div class="community-img scroll-animate">
-        <img src="img/community.svg" alt="Rejoindre la Communauté AF-DEV">
-      </div>
-      <div class="community-text scroll-animate">
-        <h2>Rejoindre la Communauté</h2>
-        <p>En rejoignant AF-DEV, vous bénéficiez de nombreux avantages pour booster votre carrière de développeur :</p>
-        <ul class="community-benefits">
-          <li>Accès à des ressources exclusives et tutoriels.</li>
-          <li>Réseautage avec des développeurs talentueux à travers l'Afrique.</li>
-          <li>Participation à des projets open-source innovants.</li>
-          <li>Invitations à des événements et hackathons.</li>
-          <li>Opportunités de collaboration et de mentorat.</li>
+  <head>
+    <meta charset="UTF-8" id="meta-charset-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" id="meta-xua-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" id="meta-viewport-1">
+    <title>AF-DEV - Communauté Africaine de Développeurs</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Balise META -->
+    <meta name="description" content="AF-DEV est la communauté de développeurs africains qui façonne l'avenir technologique du continent." id="meta-description-1">
+    <meta name="keywords" content="AF-DEV, Développeurs, Afrique, Technologie, Open Source">
+    <meta name="author" content="AF-DEV">
+    <meta property="og:title" content="AF-DEV">
+    <meta property="og:description" content="Communauté africaine de développeurs">
+    <meta property="og:image" content="img/og-image.jpg">
+    <meta property="og:url" content="http://example.com">
+    <meta name="twitter:card" content="summary_large_image">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <div class="nav container" id="nav-container-1">
+        <a href="#" class="logo">AF-<span>DEV</span></a>
+        <!-- Menu-Icon -->
+        <input type="checkbox" id="menu">
+        <label for="menu"><i class="ri-menu-line" id="menu-icon"></i></label>
+        <!-- Nav List -->
+        <ul class="navbar" id="navbar-1">
+          <li id="nav-item-1"><a href="#" class="active" id="nav-link-1"></a></li>
+          <li id="nav-item-2"><a href="#" id="nav-link-2"></a></li>
+          <li id="nav-item-3"><a href="#" id="nav-link-3"></a></li>
+          <li id="nav-item-4"><a href="#" id="nav-link-4"></a></li>
+          <li id="nav-item-5"><a href="#" id="nav-link-5"></a></li>
         </ul>
-        <div class="community-cta">
-          <p>Rejoignez-nous dès maintenant sur Telegram pour ne rien manquer !</p>
-          <a href="https://t.me/afdev_community" class="community-btn" target="_blank">
-            <i class='bx bxl-telegram'></i> Rejoindre sur Telegram
-          </a>
+      </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home container" id="home-section-1">
+      <div class="home-text scroll-animate" id="home-text-1">
+        <h1 id="home-heading-1"></h1>
+        <p id="home-paragraph-1"></p>
+        <a href="#" class="btn" id="home-btn-1"></a>
+      </div>
+      <div class="home-img scroll-animate" id="home-img-1">
+        <img src="img/home.svg" alt="" id="home-img-svg-1">
+      </div>
+    </section>
+    <hr class="styled-hr" id="hr-1">
+
+    <!-- Services Section -->
+    <section class="services" id="services-section-1">
+      <div class="heading scroll-animate" id="services-heading-1">
+        <h2 id="services-title-1"></h2>
+        <p id="services-subtitle-1"></p>
+      </div>
+      <div class="services-container container" id="services-container-1">
+        <div class="box scroll-animate" id="service-box-1">
+          <img src="img/services1.svg" alt="" id="service-img-1">
+          <h2 id="service-title-1"></h2>
+          <p id="service-desc-1"></p>
+          <a href="#" class="s-btn" id="service-btn-1"></a>
+        </div>
+        <div class="box scroll-animate" id="service-box-2">
+          <img src="img/services2.svg" alt="" id="service-img-2">
+          <h2 id="service-title-2"></h2>
+          <p id="service-desc-2"></p>
+          <a href="#" class="s-btn" id="service-btn-2"></a>
+        </div>
+        <div class="box scroll-animate" id="service-box-3">
+          <img src="img/services3.svg" alt="" id="service-img-3">
+          <h2 id="service-title-3"></h2>
+          <p id="service-desc-3"></p>
+          <a href="#" class="s-btn" id="service-btn-3"></a>
+        </div>
+        <div class="box scroll-animate" id="service-box-4">
+          <img src="img/services4.svg" alt="" id="service-img-4">
+          <h2 id="service-title-4"></h2>
+          <p id="service-desc-4"></p>
+          <a href="#" class="s-btn" id="service-btn-4"></a>
         </div>
       </div>
-    </div>
-  </section>
-  <hr class="styled-hr">
+    </section>
+    <hr class="styled-hr" id="hr-2">
 
-  <!-- Contact Section -->
-  <section class="contact container" id="contact">
-    <div class="contact-img scroll-animate">
-      <img src="img/contact.svg" alt="Contact Illustration">
-    </div>
-    <div class="contact-form scroll-animate">
-      <h2>Contactez-nous</h2>
-      <form action="#">
-        <div class="input-group">
-          <label for="name">Votre nom</label>
-          <input type="text" id="name" required>
-        </div>
-        <div class="input-group">
-          <label for="email">Votre email</label>
-          <input type="email" id="email" required>
-        </div>
-        <div class="input-group">
-          <label for="message">Votre message</label>
-          <textarea id="message" rows="5" required></textarea>
-        </div>
-        <button type="submit" class="c-btn">Envoyer le message</button>
-      </form>
-    </div>
-  </section>
-  <hr class="styled-hr">
+    <!-- Blog Section -->
+    <section class="blog container" id="blog-section-1">
+      <h2 id="blog-title-1"></h2>
+      <p class="blog-subtitle" id="blog-subtitle-1"></p>
+      <div class="blog-filters" id="blog-filters-1"></div>
+      <div class="blog-posts" id="blog-posts-1"></div>
+    </section>
+    <hr class="styled-hr" id="hr-3">
 
-  <!-- Footer -->
-  <div class="copyright container">
-    <p>@AF-DEV Tous droits réservés</p>
-    <div class="social">
-      <a href="#"><i class='bx bxl-facebook'></i></a>
-      <a href="#"><i class='bx bxl-twitter'></i></a>
-      <a href="#"><i class='bx bxl-instagram'></i></a>
-    </div>
-  </div>
+    <!-- Community Section -->
+    <section class="community container" id="community-section-1">
+      <div class="community-content" id="community-content-1">
+        <div class="community-img scroll-animate" id="community-img-1">
+          <img src="img/community.svg" alt="" id="community-svg-1">
+        </div>
+        <div class="community-text scroll-animate" id="community-text-1">
+          <h2 id="community-heading-1"></h2>
+          <p id="community-paragraph-1"></p>
+          <ul class="community-benefits" id="community-benefits-1">
+            <li id="benefit-1"></li>
+            <li id="benefit-2"></li>
+            <li id="benefit-3"></li>
+            <li id="benefit-4"></li>
+            <li id="benefit-5"></li>
+          </ul>
+          <div class="community-cta" id="community-cta-1">
+            <p id="community-cta-text-1"></p>
+            <a href="https://t.me/afdev_community" class="community-btn" target="_blank" id="community-btn-1">
+              <span id="telegram-text-1"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="styled-hr" id="hr-4">
 
-  <!-- Module JS -->
-  <script type="module" src="jscripts/main.js"></script>
-</body>
+    <!-- Contact Section -->
+    <section class="contact container" id="contact-section-1">
+      <div class="contact-img scroll-animate" id="contact-img-1">
+        <img src="img/contact.svg" alt="" id="contact-svg-1">
+      </div>
+      <div class="contact-form scroll-animate" id="contact-form-1">
+        <h2 id="contact-heading-1"></h2>
+        <form action="#" id="contact-form-element-1">
+          <div class="input-group" id="input-group-1">
+            <label for="name" id="label-name-1"></label>
+            <input type="text" id="input-name-1" required>
+          </div>
+          <div class="input-group" id="input-group-2">
+            <label for="email" id="label-email-1"></label>
+            <input type="email" id="input-email-1" required>
+          </div>
+          <div class="input-group" id="input-group-3">
+            <label for="message" id="label-message-1"></label>
+            <textarea id="textarea-message-1" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="c-btn" id="contact-submit-1">
+            <span id="send-text-1"></span>
+          </button>
+        </form>
+      </div>
+    </section>
+    <hr class="styled-hr" id="hr-5">
+
+    <!-- Footer -->
+    <footer class="main-footer" id="footer-1">
+      <!-- wave -->
+      <div class="footer-wave" id="footer-wave-1">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none" id="svg-1">
+          <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill" id="path-1"></path>
+          <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60-48.47,24-44.53,27.3-87.87,74.24-98.45V0Z" opacity=".5" class="shape-fill" id="path-2"></path>
+          <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill" id="path-3"></path>
+        </svg>
+      </div>
+
+      <div class="footer-content container" id="footer-content-1">
+        <!-- Colonne -->
+        <div class="footer-col main-col" id="footer-main-col-1">
+          <h3 class="footer-logo" id="footer-logo-1"></h3>
+          <p class="footer-motto" id="footer-motto-1"></p>
+          <!-- Social Media -->
+          <div class="social-links" id="social-links-1">
+            <a href="#" aria-label="GitHub" class="social-icon" id="social-github-1">
+              <i class="ri-github-line" id="social-icon-github-1"></i>
+            </a>
+            <a href="#" aria-label="Twitter" class="social-icon" id="social-twitter-1">
+              <i class="ri-twitter-line" id="social-icon-twitter-1"></i>
+            </a>
+            <a href="#" aria-label="LinkedIn" class="social-icon" id="social-linkedin-1">
+              <i class="ri-linkedin-line" id="social-icon-linkedin-1"></i>
+            </a>
+            <a href="#" aria-label="YouTube" class="social-icon" id="social-youtube-1">
+              <i class="ri-youtube-line" id="social-icon-youtube-1"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick link -->
+        <div class="footer-col" id="footer-col-explorer-1">
+          <h4 class="footer-title" id="footer-title-explorer-1"></h4>
+          <ul class="footer-links" id="footer-links-explorer-1">
+            <li id="footer-link-1"><a href="#home" id="footer-link-anchor-1"></a></li>
+            <li id="footer-link-2"><a href="#projects" id="footer-link-anchor-2"></a></li>
+            <li id="footer-link-3"><a href="#blog" id="footer-link-anchor-3"></a></li>
+            <li id="footer-link-4"><a href="#events" id="footer-link-anchor-4"></a></li>
+            <li id="footer-link-5"><a href="#contact" id="footer-link-anchor-5"></a></li>
+          </ul>
+        </div>
+
+        <!-- Ressources -->
+        <div class="footer-col" id="footer-col-resources-1">
+          <h4 class="footer-title" id="footer-title-resources-1"></h4>
+          <ul class="footer-links" id="footer-links-resources-1">
+            <li id="footer-resource-1"><a href="#docs" id="footer-resource-anchor-1"></a></li>
+            <li id="footer-resource-2"><a href="#tutorials" id="footer-resource-anchor-2"></a></li>
+            <li id="footer-resource-3"><a href="#tools" id="footer-resource-anchor-3"></a></li>
+            <li id="footer-resource-4"><a href="#careers" id="footer-resource-anchor-4"></a></li>
+            <li id="footer-resource-5"><a href="#faq" id="footer-resource-anchor-5"></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="footer-bottom" id="footer-bottom-1">
+        <div class="container" id="footer-bottom-container-1">
+          <p class="copyright" id="copyright-1"></p>
+          <div class="legal-links" id="legal-links-1">
+            <a href="#terms" id="legal-link-terms-1"></a>
+            <a href="#privacy" id="legal-link-privacy-1"></a>
+            <a href="#cookies" id="legal-link-cookies-1"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Module JS -->
+    <script type="module" src="jscripts/main.js"></script>
+  </body>
 </html>

@@ -12,12 +12,13 @@ export const translations = {
       contact: "Contact"
     },
     home: {
-      intro: "AF-DEV est la communauté de développeurs africains qui façonne l'avenir technologique du continent. Ensemble, construisons des solutions open-source innovantes et propulsons l'Afrique au cœur de la révolution numérique.",
+      heading: "Catalyseur de l'innovation Tech Africaine Open-Source",
+      paragraph: "AF-DEV est la communauté de développeurs africains qui façonne l'avenir technologique du continent. Ensemble, construisons des solutions open-source innovantes et propulsons l'Afrique au cœur de la révolution numérique.",
       button: "Rejoignez la révolution"
     },
     services: {
       title: "Nos activités",
-      description: "Nous collaborons sur des projets open-source pour faire de l'Afrique un nouveau hub du développement.",
+      subtitle: "Nous collaborons sur des projets open-source pour faire de l'Afrique un nouveau hub du développement.",
       boxes: {
         hackathons: {
           title: "Hackathons",
@@ -56,8 +57,8 @@ export const translations = {
       loadMore: "Voir plus d'articles"
     },
     community: {
-      title: "Rejoindre la Communauté",
-      description: "En rejoignant AF-DEV, vous bénéficiez de nombreux avantages pour booster votre carrière de développeur :",
+      heading: "Rejoindre la Communauté",
+      paragraph: "En rejoignant AF-DEV, vous bénéficiez de nombreux avantages pour booster votre carrière de développeur :",
       benefits: [
         "Accès à des ressources exclusives et tutoriels.",
         "Réseautage avec des développeurs talentueux à travers l'Afrique.",
@@ -76,7 +77,34 @@ export const translations = {
       submitButton: "Envoyer le message"
     },
     footer: {
-      copyright: "@AF-DEV Tous droits réservés"
+      logo: "AF-DEV",
+      motto: "Construisons l'avenir tech de l'Afrique ensemble",
+      explorer: {
+        title: "Explorer",
+        links: {
+          home: "Accueil",
+          projects: "Projets",
+          blog: "Blog",
+          events: "Événements",
+          contact: "Contact"
+        }
+      },
+      resources: {
+        title: "Ressources",
+        links: {
+          docs: "Documentation",
+          tutorials: "Tutoriels",
+          tools: "Outils",
+          careers: "Carrières",
+          faq: "FAQ"
+        }
+      },
+      legal: {
+        terms: "Conditions d'utilisation",
+        privacy: "Confidentialité",
+        cookies: "Cookies"
+      },
+      copyright: "© 2025 AF-DEV. Tous droits réservés."
     }
   },
   en: {
@@ -88,12 +116,13 @@ export const translations = {
       contact: "Contact"
     },
     home: {
-      intro: "AF-DEV is the community of African developers shaping the continent's technological future. Together, let's build innovative open-source solutions and propel Africa to the heart of the digital revolution.",
+      heading: "Catalyst for African Tech Innovation Open-Source",
+      paragraph: "AF-DEV is the community of African developers shaping the continent's technological future. Together, let's build innovative open-source solutions and propel Africa to the heart of the digital revolution.",
       button: "Join the Revolution"
     },
     services: {
       title: "Our Activities",
-      description: "We collaborate on open-source projects to make Africa a new hub for development.",
+      subtitle: "We collaborate on open-source projects to make Africa a new hub for development.",
       boxes: {
         hackathons: {
           title: "Hackathons",
@@ -132,8 +161,8 @@ export const translations = {
       loadMore: "Load More Articles"
     },
     community: {
-      title: "Join the Community",
-      description: "By joining AF-DEV, you gain numerous benefits to boost your developer career:",
+      heading: "Join the Community",
+      paragraph: "By joining AF-DEV, you gain numerous benefits to boost your developer career:",
       benefits: [
         "Access to exclusive resources and tutorials.",
         "Networking with talented developers across Africa.",
@@ -152,7 +181,34 @@ export const translations = {
       submitButton: "Send Message"
     },
     footer: {
-      copyright: "@AF-DEV All rights reserved"
+      logo: "AF-DEV",
+      motto: "Let's build Africa's tech future together",
+      explorer: {
+        title: "Explore",
+        links: {
+          home: "Home",
+          projects: "Projects",
+          blog: "Blog",
+          events: "Events",
+          contact: "Contact"
+        }
+      },
+      resources: {
+        title: "Resources",
+        links: {
+          docs: "Documentation",
+          tutorials: "Tutorials",
+          tools: "Tools",
+          careers: "Careers",
+          faq: "FAQ"
+        }
+      },
+      legal: {
+        terms: "Terms of Use",
+        privacy: "Privacy",
+        cookies: "Cookies"
+      },
+      copyright: "© 2025 AF-DEV. All rights reserved."
     }
   }
 };
